@@ -133,7 +133,7 @@ public class Manager extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-        NeueFrage dlgNeueFrage = new NeueFrage();
+        NeueFrage dlgNeueFrage = new NeueFrage(this, true);
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
         dlgNeueFrage.setLocation(dim.width/2-dlgNeueFrage.getSize().width/2, dim.height/2-dlgNeueFrage.getSize().height/2);
         dlgNeueFrage.setVisible(true);
