@@ -67,7 +67,6 @@ public class MainFrame extends javax.swing.JFrame {
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
         manager.setLocation(dim.width/2-manager.getSize().width/2, dim.height/2-manager.getSize().height/2);
         manager.setVisible(true);
-
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
